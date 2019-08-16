@@ -1,0 +1,65 @@
+Language model created by QuickLM on Fri Aug 16 12:41:36 EDT 2019
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=17
+ngram 3=12
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.6812 AM -0.2919
+-1.6812 BYE -0.2430
+-1.6812 CALCULATOR -0.2430
+-1.6812 FINE -0.2919
+-1.6812 HELLO -0.2430
+-1.6812 HOWDY -0.2430
+-1.6812 I -0.2919
+-1.6812 NOTEPAD -0.2430
+-1.3802 OPEN -0.2825
+-1.6812 THANK -0.2919
+-1.6812 YOU -0.2430
+
+\2-grams:
+-1.0792 <s> BYE 0.0000
+-1.0792 <s> HELLO 0.0000
+-1.0792 <s> HOWDY 0.0000
+-1.0792 <s> I 0.0000
+-0.7782 <s> OPEN 0.0000
+-0.3010 AM FINE 0.0000
+-0.3010 BYE </s> -0.3010
+-0.3010 CALCULATOR </s> -0.3010
+-0.3010 FINE THANK 0.0000
+-0.3010 HELLO </s> -0.3010
+-0.3010 HOWDY </s> -0.3010
+-0.3010 I AM 0.0000
+-0.3010 NOTEPAD </s> -0.3010
+-0.6021 OPEN CALCULATOR 0.0000
+-0.6021 OPEN NOTEPAD 0.0000
+-0.3010 THANK YOU 0.0000
+-0.3010 YOU </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BYE </s>
+-0.3010 <s> HELLO </s>
+-0.3010 <s> HOWDY </s>
+-0.3010 <s> I AM
+-0.6021 <s> OPEN CALCULATOR
+-0.6021 <s> OPEN NOTEPAD
+-0.3010 AM FINE THANK
+-0.3010 FINE THANK YOU
+-0.3010 I AM FINE
+-0.3010 OPEN CALCULATOR </s>
+-0.3010 OPEN NOTEPAD </s>
+-0.3010 THANK YOU </s>
+
+\end\
