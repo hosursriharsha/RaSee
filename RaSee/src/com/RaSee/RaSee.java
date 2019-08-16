@@ -11,6 +11,12 @@ import edu.cmu.sphinx.api.Configuration;
 import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
 
+/**
+ * This class contains the methods of RaSee application
+ * 
+ * @author Sri Harsha Hosur
+ *
+ */
 public class RaSee {
 
   /**
