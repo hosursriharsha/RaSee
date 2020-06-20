@@ -46,6 +46,9 @@ public class RaSee {
     configuration.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
     configuration.setDictionaryPath("file:///E:\\R4U\\RaSee\\Files\\8754.dic");
     configuration.setLanguageModelPath("file:///E:\\R4U\\RaSee\\Files\\8754.lm");
+    //Replace above two lines with below two lines for detecting everything.
+    //    configuration.setDictionaryPath("resource:/edu/cmu/sphinx/models/en-us/cmudict-en-us.dict");
+//    configuration.setLanguageModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us.lm.bin");
     LiveSpeechRecognizer recognize = new LiveSpeechRecognizer(configuration);
     recognize.startRecognition(true);
     SpeechResult result;
